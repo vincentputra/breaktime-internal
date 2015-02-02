@@ -21,20 +21,28 @@
           lat: -12.043333,
           lng: -77.028333
         });
-        map.travelRoute({
+        map.drawRoute({
           origin: [-12.044012922866312, -77.02470665341184],
           destination: [-12.090814532191756, -77.02271108990476],
           travelMode: 'driving',
-          step: function(e){
-            $('#instructions').append('<li>'+e.instructions+'</li>');
-            $('#instructions li:eq('+e.step_number+')').delay(450*e.step_number).fadeIn(200, function(){
-              map.drawPolyline({
-                path: e.path,
-                strokeColor: '#131540',
-                strokeOpacity: 0.6,
-                strokeWeight: 6
-              });  
-            });
+          strokeColor: '#131540',
+          strokeOpacity: 0.6,
+          strokeWeight: 6
+        });
+        map.addMarker({
+          lat: -12.044012922866312,
+          lng: -77.02470665341184,
+          title: 'Marker with InfoWindow',
+          infoWindow: {
+            content: '<p>HTML Content 1</p>'
+          }
+        });
+        map.addMarker({
+          lat: -12.090814532191756,
+          lng: -77.02271108990476,
+          title: 'Marker with InfoWindow',
+          infoWindow: {
+            content: '<p>HTML Content 2</p>'
           }
         });
       });
@@ -176,21 +184,28 @@
                   <option value="malang">malang</option>
                 </select>
                 <a href="#" class="btn btn-danger" title="find near"><i class="fa fa-map-marker"></i> Places near to me</a>
-                <div class="panel border-panel">
-                  <div class="panel-header">
-                    <i class="fa fa-location-arrow"></i> Get Directions
+                <div class="panel-group" id="panel-base">
+                  <div class="panel border-panel">
+                    <div class=" panel-heading">
+                      <a class="panel-title" data-toggle="collapse" data-parent="#panel-base" href="#panel-element-map">
+                        <i class="fa fa-location-arrow"></i> Get Directions
+                      </a>
+                    </div>
+                    <div id="panel-element-map" class="panel-collapse collapse">
+                      <center>
+                        <input type="text" class="form-control" name="start" value="" placeholder="START : Current location">
+                        <input type="text" class="form-control" name="end" value="" placeholder="END : Jl Gajah Mada">
+                        <input type="submit" name="submit" class="btn btn-map" value="get direction"> 
+                      </center>   
+                    </div> 
                   </div>
-                  <div class="panel-body">
-                    <input type="text" class="form-control" name="start" value="" placeholder="START : Current location">
-                    <input type="text" class="form-control" name="end" value="" placeholder="END : Jl Gajah Mada">
-                    <center><input type="submit" name="submit" class="btn btn-map" value="get direction"> </center>   
-                  </div> 
                 </div>
               </form>
             </div>
           </div>
         </div>
         <div id="map"></div>
+        <!-- <ul id="instructions"></ul> -->
       </div>
     </div>
     <!-- content -->
