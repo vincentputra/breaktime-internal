@@ -83,8 +83,15 @@ select {
   width: 92%;
 }
 
-.panel-heading {
+.warning {
   background-color: #FFC44F;
+}
+
+.danger {
+  background-color: #DA2F2F;
+}
+
+.panel-heading {
   padding: 6px 15px;
   color: #fff;
 }
@@ -94,13 +101,41 @@ select {
   text-decoration: none;
 }
 
-.btn-danger {
-  text-align: left;
-  padding: 6px 17px;
+.panel-group {
+  margin-bottom: 10px;
+  padding: 0px 10px;
 }
 
-.panel-body {
+.panel-group .panel, .panel-group .panel-heading {
+  border-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.panel-collapse {
   background-color: #F4F4F4;
+  padding: 10px;
+}
+
+.carousel-caption {
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+.carousel-caption h4 {
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+
+.carousel-inner p {
+  color: #000;
+  text-align: left;
 }
 
 .overlay{
