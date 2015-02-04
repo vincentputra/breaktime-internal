@@ -10,6 +10,21 @@ body {
 	height: 150px;
 }
 
+.content-left > .right > .btn {
+	background-image: url(/assets/images/calendar/arrow.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	width: 41px;
+}
+
+.btn-left {
+	background-position: 0px 0px;
+}
+
+.btn-right {
+	background-position: -42px 0px;
+}
+
 .calendar-hero .location {
 	color: #fefefe;
 	text-transform: uppercase;
