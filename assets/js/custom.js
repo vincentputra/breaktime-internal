@@ -78,3 +78,11 @@ $(".menu-bars-xs").click(function(e){
 		$('nav.col-menu-xs').removeClass('slide-down');
 		$('body').removeClass('slide-down');
 	});
+
+$(".dropmenu-01").click(function(){
+	$(".dropdown-menu-xs-01").slideToggle();
+});
+
+$(".dropmenu-02").click(function(){
+	$(".dropdown-menu-xs-02").slideToggle();
+});
