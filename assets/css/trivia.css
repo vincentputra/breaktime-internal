@@ -1,0 +1,13 @@
+.upper-of-hero {
+  width: 100%;
+  background-color: rgba(249, 249, 249, 0.67);
+  z-index: 15;
+  position: absolute;
+
+}
+
+.upper-of-hero img.hero-small {
+  min-height: 65px;
+  max-height: 65px;
+  padding: 5px;
+}

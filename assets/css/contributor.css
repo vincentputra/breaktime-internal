@@ -1,6 +1,6 @@
-/*.contributor .margin-left-50 {
-  margin-left: -50px;
-}*/
+body {
+  font-family: 'EdmondsansRegularRegular';
+}
 
 .contributor p.heading {
   font-size: 20px;

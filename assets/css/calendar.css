@@ -1,0 +1,112 @@
+body {
+	font-family: 'EdmondsansRegularRegular';
+}
+
+.calendar-hero {
+	background-image: url(/assets/images/calendar/calendar-hero.jpg);
+	background-position: center;
+	background-attachment: inherit;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+
+.calendar-hero .location {
+	color: #fefefe;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 16px
+}
+
+.bg-large {
+	margin-right: 20px;
+	min-width: 150px;
+	min-height: 150px;
+	color: #fefefe;
+}
+
+.bg-small {
+	margin-left: 15px;
+	min-width: 100px;
+	min-height: 80px;
+	color: #fefefe;
+}
+
+.bg-red {
+	background-color: rgba(221, 62, 62, 0.90);
+}
+
+.bg-yellow {
+	background-color: rgba(202, 174, 31, 0.9);
+}
+
+.bg-red center, .bg-yellow center {
+	margin-top: 40%;
+}
+
+.right {
+	float: right;
+}
+
+.mobile-view {
+	z-index: 15;
+	margin-top: -70px;
+}
+
+.mobile-title {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.content-bottom {
+	background-color: #D9D9D9;
+}
+
+.bg-bottom-content {
+	background-color: #fefefe;
+}
+
+.content-box {
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+
+.remove-bg-content {
+	margin: 20px -15px 0px -15px;
+	padding-top: 20px;
+	padding-right: 10px;
+	font-size: 12px;
+	color: #555;
+	text-align: right;
+	background-color: #D9D9D9;
+}
+
+#calendar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#calendar h2, .fc-day-header, .fc-day-number {
+	color: #808080;
+}
+
+/* optimize calendar css here */
+.fc th, .fc td {
+	border-style: none; 
+}
+
+.fc-view > table > thead > tr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.fc-event {
+	border: 1px solid #E7C43D;
+	background-color: #E7C43D;
+}
+
+@media (min-width: 768px) {
+	.mobile-title {
+		text-align: left;
+		padding-top: 0px;
+	}
+}
