@@ -1,0 +1,18 @@
+.title-recipes {
+	margin-top: -15px
+}
+
+.title-recipes h2 {
+	text-transform: uppercase;
+	color: #1EACEC;
+	border-bottom: 1px solid #EBEBEB;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-right: 60%;
+}
+
+@media (max-width: 767px) {
+	.title-recipes h2 {
+		margin-right: 0;
+	}
+}
