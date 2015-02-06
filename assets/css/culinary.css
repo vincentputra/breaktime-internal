@@ -1,0 +1,49 @@
+.title-hangout > .left {
+	float: left;
+	width: 60%;
+}
+
+.title-hangout > .right {
+	float: left;
+	width: 30%;
+	padding-top: 63px;
+}
+
+.title-hangout h2 {
+	text-transform: uppercase;
+	color: #1EACEC;
+}
+
+i.arrow-right {
+	background: url(../images/long-arrow.png) no-repeat scroll 0 0 transparent;
+	content: '';
+	display: block;
+	height: 11px;
+	margin-top: -19px;
+	margin-left: 115px;
+}
+
+.star {
+	background: url(../images/icon-star.png) repeat scroll 0 0 transparent;
+	content: '';
+	display: block;
+	height: 15px;
+	width: 135px;
+	margin-top: -15px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+	.title-hangout > .left {
+		float: none;
+		width: 100%
+	}
+
+	.title-hangout > .right {
+		float: none;
+		width: 100%;
+		padding: 0px;
+		margin-top: -15px;
+		margin-bottom: 30px;
+	}
+}
