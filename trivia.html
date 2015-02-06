@@ -1,559 +1,233 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
-
   <head>
-
     <meta charset="utf-8">
-
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <title>Trivia - Breaktime</title>
-
     <link href="assets/css/skins/polaris/polaris.css" media="all" rel="stylesheet" type="text/css">
-
     <link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css">
-
-    <link href="assets/css/trivia.css" media="all" rel="stylesheet" type="text/css">
-
+    <link href="assets/css/trivia.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+    <!-- script call -->
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
-
       <script src="assets/js/html5shiv.js" type="text/javascript"></script>
-
       <script src="assets/js/respond.min.js" type="text/javascript"></script>
-
     <![endif]-->
-
   </head>
-
   <body>
-
     <header id="header2">
-
       <div id="pagenav2">
-
         <div class="container">
-
           <nav>
-
             <ul class="sitenav">
-
               <li class="dropdown">
-
                 <a data-toggle="dropdown" href="">
-
                   Music Player
-
                   <i class="fa fa-caret-down"></i>
-
                 </a>
-
                 <ul class="dropdown-menu">
-
                   <li>
-
                     <a href="">Action</a>
-
                   </li>
-
                   <li>
-
                     <a href="">Another Action</a>
-
                   </li>
-
                 </ul>
-
               </li>
-
               <li>
-
                 <a href="">
-
                   Login
-
                 </a>
-
                 |
-
                 <a href="">
-
                   Signup
-
                 </a>
-
               </li>
-
               <li id="logo">
-
                 <a href="#">
-
                   <img alt="logo" src="assets/images/logo-2.png" title="Logo">
-
                 </a>
-
               </li>
-
-              <li class="box-search-article">
-                
-                <input class="search-article" placeholder="Find your keyword">
-                <i class="fa fa-search"></i>
-
-              </li>
-
-            </ul>
-
-          </nav>
-
-        </div>
-
-      </div>
-
-      <div id="pagenav-mobile">
-
-        <div class="container">
-
-          <figure class="col-xs-8" id="logo"></figure>
-
-          <nav class="col-xs-4">
-
-            <ul class="dropdown-menu">
-
               <li class="dropdown">
-
-                <a data-toggle="dropdown" href="">
-
-                  Music Player
-
-                  <i class="fa fa-caret-down"></i>
-
-                </a>
-
-                <ul class="dropdown-menu">
-
+                <!-- <a aria-hidden="true" data-target=".dropdown-menu-custom" data-toggle="dropdown" href=""> -->
+                <div class="btn-group" role="group" aria-label="...">
+                  <input class="form-control" type="text" placeholder="FIND YOUR KEYWORD">
+                </div>
+                <!-- </a> -->
+                <!-- <ul class="dropdown-menu-custom">
                   <li>
-
-                    <a href="">Action</a>
-
+                    <form action="#" method="post">
+                      
+                    </form>
                   </li>
-
-                  <li>
-
-                    <a href="">Another Action</a>
-
-                  </li>
-
-                </ul>
-
+                </ul> -->
               </li>
-
-              <li>
-
-                <a href="">
-
-                  Login
-
-                </a>
-
-                |
-
-                <a href="">
-
-                  Signup
-
-                </a>
-
-              </li>
-
-              <li id="logo">
-
-                <a href="#">
-
-                  <img alt="logo" src="assets/images/logo.png" title="Logo">
-
-                </a>
-
-              </li>
-
-              <li class="box-search-article">
-                
-                <input class="search-article" placeholder="Find your keyword">
-                <i class="fa fa-search"></i>
-
-              </li>
-
             </ul>
-
           </nav>
-
         </div>
-
       </div>
-
+      <div id="pagenav-mobile">
+        <div class="container">
+          <figure class="col-xs-8" id="logo"></figure>
+          <nav class="col-xs-4">
+            <ul class="dropdown-menu">
+              <li class="dropdown">
+                <a data-toggle="dropdown" href="">
+                  Music Player
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="">Action</a>
+                  </li>
+                  <li>
+                    <a href="">Another Action</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="">
+                  Login
+                </a>
+                |
+                <a href="">
+                  Signup
+                </a>
+              </li>
+              <li id="logo">
+                <a href="#">
+                  <img alt="logo" src="assets/images/logo.png" title="Logo">
+                </a>
+              </li>
+              <li class="dropdown">
+                <a data-toggle="dropdown" href="">
+                  Categories
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="">Action</a>
+                  </li>
+                  <li>
+                    <a href="">Another Action</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a aria-hidden="true" data-target=".dropdown-menu-custom" data-toggle="dropdown" href="">
+                  Search
+                  <i class="fa fa-search round"></i>
+                </a>
+                <ul class="dropdown-menu-custom">
+                  <li>
+                    <form action="#" method="post">
+                      <input type="text">
+                    </form>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
-    <div id="innerpage-content">
-
-      <div id="topbanner-article">
-
-        <img alt="img" class="bg-banner" src="assets/images/trivia/trivia-hero.png" title="Banner">
-
-        <div class="bott-bx-article alpha-bg">
-
-          <div class="container">
-
-            <div class="row">
-
-              <div class="col-sm-1">
-
-                <figure class="round">
-
-                  <img src="assets/images/article/img-profile.jpg">
-
-                </figure>
-
-              </div>
-
-              <div class="col-sm-11">
-
-                <h4 class="name-profile">
-
-                  by
-
-                  <strong>Joshua Aaron Murphy</strong>
-
-                </h4>
-
-                <h5 class="sub-time">
-
-                  <time>2014-10-29   05:50:45</time>
-
-                </h5>
-
-              </div>
-
+    <div class="beauty-page trivia" id="innerpage-content">
+      <div class="image-banner">
+        <img class="img-responsive" src="assets/images/trivia/trivia-hero.png" alt="banner heading">
+        <div class="upper-of-hero">
+          <div class="row">
+            <div class="col-md-1 col-md-offset-2">
+              <center>
+                <img class="img-responsive hero-small" src="assets/images/contributor/profile1.png" alt="image thumbnail">
+              </center>
             </div>
-
+            <div class="col-md-6">
+              <p class="hero-first">by <span>Joshua Aaron Murphy</span></p>
+              <p class="hero-second">2015-04-12 12:18:19</p>
+            </div>
+            <div class="clearfix"></div>
           </div>
-
         </div>
-
       </div>
-
       <div class="container">
-
-        <div class="clearfix border-top" id="article-post">
-
-          <div class="col-sm-9 with-padd-top" id="article-left">
-
-            <div class="black-box">
-              <div class="container-box">
-                <h2 class="title-box">fun fact question</h2>
-                <div class="clearfix"></div>
-                <div class="left-box">
-                  <h3 class="subtitle-box">I love the smell of napalm in the morning</h3>
-                </div>
-                <div class="right-box">
-                  <div class="input-group">
-                    <div class="radio">
-                      <input type="radio" name="question">
-                    </div>
-                    <label>
-                       You see, in this world, there's two kinds of people, my friend.
-                    </label>
-                  </div>
-                  <div class="input-group">
-                    <div class="radio">
-                      <input type="radio" name="question"> 
-                    </div>
-                    <label>
-                      I'm not locked in here with you. You're locked in here with me!
-                    </label>
-                  </div>
-                  <div class="input-group">
-                    <div class="radio">
-                      <input type="radio" name="question"> 
-                    </div>
-                    <label>
-                      Are you not entertained?
-                    </label>
-                  </div>
-                  <div class="input-group">
-                    <div class="radio">
-                      <input type="radio" name="question"> 
-                    </div>
-                    <label>
-                      Not very, it’s a passing trend,
-                    </label>
-                  </div>
-                  <div class="input-group">
-                    <div class="radio">
-                      <input type="radio" name="question"> 
-                    </div>
-                    <label>
-                      Dying ain't much of a living, boy,
-                    </label>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-
-            <blockquote class="default full text-center">
-
-              This was more than a cat. It was Grumpy Cat, whose adorable frown had become shorthand at my office, a perfect reaction to an email complaining about a psychopathic coworker or an unfair policy change.
-
-            </blockquote>
-
-            <p>
-
-              This was more than a cat. It was Grumpy Cat, whose adorable frown had become shorthand at my office, a perfect reaction to an email complaining about a psychopathic coworker or an unfair policy change. After months of being passed around the office, Tardar Sauce felt like family, and a photo with her would make everyone I knew seethe with jealousy.
-
-            </p>
-
-            <p>
-
-              For the cat behind the meme, the book tour was a new level of fame. She had professional representation by Ben Lashes, the world’s first self-appointed &quot;meme manager,&quot; who watched the bookstore proceedings in requisite indoor sunglasses. He had just secured a lucrative deal for Grumpy to represent Friskies cat food and was closing in on a Lifetime original movie. &quot;Grumpy Cat's Worst Christmas Ever,&quot; which will air this Thanksgiving, tells the story of an unloved cat who is finally adopted on Christmas Eve by a twelve-year-old girl with a heart of gold, who can hear the animal talk — naturally - in the voice of &quot;Parks & Recreation's&quot; ever-grumpy Aubrey Plaza.
-
-            </p>
-
-            <p>
-
-              While waiting for Grumpy Cat at Changing Hands, the crowd fought over who loved the stranger's cat more. A Grumpy Cat tattoo beat a Grumpy Cat T-shirt. My drive from Tucson (three hours) trumped another woman's commute from Casa Grande (sixty minutes). Whatever sacrifices we had made, however great the pledges and allegiances, we were all variants of the same insanity. We were drawn to this store by our shared entitlement to a stranger’s pet. A belief that somehow, she belonged to us.
-
-            </p>
-
-            <p>
-
-              Now that she's taken over the world, the Grumpy machine seems unstoppable. A year after the book tour, her face has been licensed on everything from leggings to bottled cappuccinos. Her talk show circuit rounds rival Hilary Clinton's. We all know she's a celebrity. But as I struggled to get to the front of the line, to get the picture that would make the long drive worth it, I was struck by how small the animal looked on her little fleece bed. How on earth does a cat become famous, I wondered, and what does it do to her?
-
-            </p>
-
+        <div class="row">
+          <div class="col-md-12">
+            this is asticle
           </div>
-
-          <div class="col-sm-3 with-padd-top" id="article-right">
-
-            <div class="row">
-
-              <div class="col-sm-12 no-padd-right">
-
-                <a class="next-article" href="">NEXT ARTICLE</a>
-
-              </div>
-
-              <div class="col-sm-12 no-padd-right with-padd-bott">
-
-                <div class="dblock bx-thumb tall">
-
-                  <div class="inner-bx">
-
-                    <figure>
-
-                      <img alt="thumb" src="assets/images/trivia/trivia-next-article.png" title="Side Banner">
-
-                    </figure>
-
-                  </div>
-
-                  <div class="desc-bx calc2">
-
-                    <h3>
-
-                      <a href="">Sleep Disorders: All about insomnia and sleep issues</a>
-
-                    </h3>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-              <div class="col-sm-12 no-padd-right with-padd-bott border-top">
-
-                <div class="dblock block-tag">
-
-                  <a href="">Travel</a>
-
-                  <a href="">Beautiful Place</a>
-
-                  <a href="">Hangout</a>
-
-                  <a href="">Hangout</a>
-
-                  <a href="">Backpack</a>
-
-                  <a href="">Guide</a>
-
-                  <a href="">Travel Tips</a>
-
-                  <a href="">Beautiful Place</a>
-
-                  <a href="">Backpack</a>
-
-                  <a href="">Travel</a>
-
-                  <a href="">Guide</a>
-
-                  <a href="">Travel Tips</a>
-
-                  <a href="">Hangout</a>
-
-                  <a href="">Inspiration</a>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
         </div>
-
       </div>
-
     </div>
-
+    <!-- content -->
+    
     <footer id="footer">
-
       <div class="container">
-
         <div class="row" id="subscribe-section">
-
           <div class="col-md-8 col-md-offset-2">
-
             <form id="subscribe">
-
               <h4>
-
                 let's drink some cofee or tea and read our news via subsriber
-
               </h4>
-
               <div class="bx-field">
-
                 <input class="subscribe-field" placeholder="YOUR OFFICIAL EMAIL" type="text">
-
                 <input class="subscribe-btn" type="submit" value="SUBSCRIBE">
-
               </div>
-
             </form>
-
           </div>
-
         </div>
-
         <div class="row" id="links-section">
-
           <div class="col-md-2">
-
             <figure id="logo-footer">
-
               <a href="#">
-
                 <img src="assets/images/logo-footer.png">
-
               </a>
-
             </figure>
-
           </div>
-
           <div class="col-md-6">
-
             <ul class="footer-links clearfix">
-
               <li>
-
                 <a href="">about us</a>
-
               </li>
-
               <li>
-
                 <a href="">advertise</a>
-
               </li>
-
               <li>
-
                 <a href="">contact us</a>
-
               </li>
-
               <li>
-
                 <a href="">privacy policy</a>
-
               </li>
-
               <li>
-
                 <a href="">terms of use</a>
-
               </li>
-
             </ul>
-
             <p>
-
               copyright &copy; 2014 breaktime magazine inc / All rights reserved.
-
             </p>
-
           </div>
-
           <div class="col-md-4">
-
             <ul class="footer-links clearfix">
-
               <li>
-
                 connect with us
-
               </li>
-
               <li>
-
                 <a href="">facebook</a>
-
               </li>
-
               <li>
-
                 <a href="">twitter</a>
-
               </li>
-
             </ul>
-
           </div>
-
         </div>
-
       </div>
-
     </footer>
-
-    <script src="assets/js/jquery.js" type="text/javascript"></script>
-
     <script src="assets/js/bootstrap_min.js" type="text/javascript"></script>
-
     <script src="assets/js/isotope.pkgd.js" type="text/javascript"></script>
-
     <script src="assets/js/masonry-horizontal.js" type="text/javascript"></script>
-
     <script src="assets/js/zepto.js" type="text/javascript"></script>
-
     <script src="assets/js/icheck.min.js" type="text/javascript"></script>
-
     <script src="assets/js/custom.js" type="text/javascript"></script>
-
   </body>
-
 </html>
-
