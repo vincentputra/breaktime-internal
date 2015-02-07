@@ -89,21 +89,6 @@ ul.sitenav>li.menu-bars-xs>a>i.fa{
 	padding: 20px 0 0;
 }
 
-ul.question-list li{
-	background: none;
-	padding: 0;
-}
-
-ul.question-list li span{
-	display: inline-block;
-	vertical-align: top;
-	width: 5%;
-}
-
-ul.question-list li span:last-child{
-	width: 90%;
-}
-
 /* =================================
 CULLINARY FOOD
 ==================================*/
@@ -1995,30 +1980,6 @@ ul.sitenav>li#logo img{ width: 250px; }
 .push-top430{ margin-top: -325px; }
 .top-abs-banner{ min-height: 0; }
 .land p{ display: none; }
-.bx-thumb .inner-bx .maps-block{ min-height: 423px; }
-.bx-thumb .desc-bx.no-calc{ bottom: 0; }
-.bx-thumb .desc-bx.no-calc p.darken-color{ display: none; }
-.form-find.form-nearby{ padding: 100px 0; }
-#form-section .form-find{ padding: 100px; }
-#col-flight ul li.flight-type div, #col-flight ul li.flight-destination div, #col-flight ul li.flight-date div{ width: 100%; }
-#col-flight ul li.flight-passenger div{ width: 100%; }
-.grid-caption-article{ top: 0; position: absolute; }
-#slider-entertainment-movie .box-carousel-control{ display: none; }
-.carousel.big-type-1 .carousel-caption .caption-wrapper .inner-caption p{ height: 25px; overflow: hidden; }
-.carousel.big-type-1 .carousel-caption{ width: 30%; }
-.carousel.big-type-1 .carousel-caption .caption-wrapper .inner-caption{ bottom: 0; }
-.cal1 .clndr .clndr-table tr{ height: 30px !important; }
-.cal1 .clndr .clndr-table tr .day .day-contents{ padding: 5px 0 !important; }
-.col-music-header{ height: auto; }
-.col-music-list{ position: relative; z-index: 99; }
-.col-music-content ul li span.title-song{ width: 70%; }
-.col-tab-panel .nav-tabs li h4 a{ padding: 5px 10px; }
-.music-lyrics .buffer-topcon.small-space{ height: 80px; }
-.col-searchbox span:first-child{ width: 90%; }
-#topbanner-article #banner-head-title{ position: relative; bottom: 0; }
-#topbanner-article img.bg-banner{ display: none; }
-#topbanner-article .bott-bx-article{ position: relative; }
-#article-post .feature-img.smaller,#article-post .feature-img.bigger{ width: 100%; }
 
 }
 
@@ -2087,7 +2048,7 @@ ul.sitenav li.menu-bars-xs{ display: block; margin-top: 40px }
 .health figure.fig-thumb img{ max-width: 100%; }
 .health .buffer-topcon.small-space,.buffer-topcon{ display: none; }
 .relt.front .col-sm-7.col-sm-offset-1{ width: 100%; margin-left: 0; }
-.health .bx-thumb,.desc-bx.no-calc.full-div{  margin: 0; }
+.health .bx-thumb,.desc-bx.no-calc.full-div{ background: #1eacec; margin: 0; }
 .health .bx-thumb .desc-bx.no-abs,.desc-bx.no-calc{ border: 0; }
 .bx-ff-quest{ width: 100%; left: 0; margin-left: 0; }
 .health ul.list-r-icheck li label span{ width: 500px; }
@@ -2107,59 +2068,7 @@ ul.sitenav li.menu-bars-xs{ display: block; margin-top: 40px }
 
 .land p{ display: none; }
 .abs-quiz{ bottom: 10px; }
-.form-find.form-nearby{ padding: 50px 0; }
-#top-c-place-section{ padding: 0; }
-figure.fig-thumb img{ width: 100%; }
-.bx-thumb .desc-bx.no-calc a{ color: #fff !important; }
-.full-height{ padding: 0; }
-.top-big-banner-con{ padding: 0; }
-.top-big-banner-con .col-sm-6{ width: 100%; margin-left: 0; }
-#form-section .form-find{ padding: 50px; }
-#slider-travel-story .col-sm-6{ width: 80%; margin-left: 10%; }
-#slider-travel-story .carousel-control{ display: none; }
-.btn-write-story{ font-size: 16px; }
-.col-book .nav-tabs>li.active>a, .col-book .nav-tabs>li.active>a:hover, .col-book .nav-tabs>li.active>a:focus, .col-book .nav-tabs>li>a:hover, .col-book .nav-tabs>li>a:focus,.col-book .nav-tabs>li>a{ font-size: 12px; padding: 5px; }
-#col-flight ul li.flight-type div, #col-flight ul li.flight-destination div, #col-flight ul li.flight-date div{ width: 100%; }
-#col-flight ul li.flight-passenger div{ width: 100%; }
-.col-caption{ bottom: 0; }
-#slider-travel3 p{ display: none; }
-#slider-travel3 h3{ font-size: 24px; }
-#slider-travel3.carousel .carousel-caption{ min-height: 0; }
-.grid-caption-article{ top: 0; }
-.grid-caption-article h3{ font-size: 18px; }
-.h245{ height: 0; }
-#slider-entertainment-movie .carousel-indicators{ display: none; }
-#slider-entertainment-movie .box-carousel-control{ display: none; }
-img{ width: 100%; }
-.btn-vote{ padding: 10px; }
-.bx-thumb .desc-bx.no-calc a,.bx-thumb .desc-bx.no-calc h5{ color: #444 !important; }
-.carousel.big-type-1 .carousel-caption .caption-wrapper .inner-caption p{ display: none; }
-.carousel.big-type-1 .carousel-caption{ width: 30%; }
-.carousel.big-type-1 .carousel-caption .caption-wrapper .inner-caption{ bottom: 0; }
-.carousel.big-type-2 .carousel-caption{ height: 100%; top: 0; }
-.bx-thumb .desc-bx.no-calc p{ color: #444; }
-.cal1 .clndr .clndr-table tr{ height: 23px !important; }
-.cal1 .clndr .clndr-table tr .day .day-contents{ padding: 2px 0 !important; }
-.btm65{ bottom: 18px !important; }
-.col-music-title h1{ font-size: 18px; }
-.col-music-content ul li span.title-song h3{ font-size: 14px; }
-.col-music-header{ height: auto; }
-.push-top{ margin-top: 0; }
-.col-music-list{ position: relative; z-index: 99; }
-.col-music-content ul li span.title-song{ width: 70%; }
-.col-tab-panel .nav-tabs li h4 a{ padding: 5px 10px; }
-.music-lyrics .buffer-topcon.small-space{ height: 80px; }
-.col-searchbox span:first-child{ width: 88%; }
-.nav-tabs>li h4{ font-size: 12px; }
-.btn-submit-lyric{ font-size: 14px; }
-#logo-footer img{ width: 200px; }
-.bx-thumb .desc-bx.halfwidth p,.bx-thumb .desc-bx.halfwidth a{ color: #444; }
-.bott-big-banner{ display: none; }
-#topbanner-article #banner-head-title{ position: relative; bottom: 0; }
-#topbanner-article img.bg-banner{ display: none; }
-#topbanner-article .bott-bx-article{ position: relative; }
-#article-post .feature-img.smaller,#article-post .feature-img.bigger{ width: 100%; }
-.login .col-sm-8.col-sm-offset-2{ width: 90%; margin-left: 0; }
+
 
 }
 
@@ -2167,7 +2076,7 @@ img{ width: 100%; }
 
 /* HOMEPAGE */
 #header ul.sitenav-xs>li>a>i,#header2 ul.sitenav>li>a>i,#header2 ul.sitenav>li>a:focus>i{ color: #444; }
-ul.sitenav{ padding-left: 0; width: 70%; }
+ul.sitenav{ padding-left: 0; width: 50%; }
 ul.sitenav li{ display: none; }
 ul.sitenav li#logo{ display: block; width: 75%; float: left; margin: 0 10px 0 0; }
 ul.sitenav li#logo img{ width: 100%; }
@@ -2242,66 +2151,6 @@ ul.list-r-icheck li label span{ width: 230px }
 
 .land p{ display: none; }
 .pot{ display: none; }
-.form-find.form-nearby{ display: none; }
-.top-map-banner .map-dummy{ display: none; }
-#top-c-place-section{ padding: 0; }
-figure.fig-thumb img{ width: 100%; }
-.bx-thumb .desc-bx.no-calc a{ color: #fff !important; }
-.full-height{ padding: 0; }
-#carousel-recipes{ display: none; }
-.top-abs-banner{ min-height: 0; position: relative; margin-bottom: 30px; }
-.top-big-banner-con{ display: none; }
-#cullinary-food .desc-bx.abs-top{ background: #1eacec; }
-#slider-culinary-food{ display: none; }
-#cullinary-food .desc-bx{ min-height: 0; }
-#slider-culinary-food{ display: none; }
-#form-section{ display: none; }
-#slider-travel2{ display: none; }
-.col-box.purple .col-caption,.col-box.green .col-caption{ position: relative; bottom: 0; }
-.top-col,.top-col-sec{ height: auto; }
-.top-col img,.top-col-sec img,.col-box img{ width: 100%; }
-.push-top300,.push-top260{ margin-top: 0; }
-#slider-travel-story{ display: none; }
-#slide-travel-planning{ display: none; }
-.col-book .nav-tabs>li.active>a, .col-book .nav-tabs>li.active>a:hover, .col-book .nav-tabs>li.active>a:focus, .col-book .nav-tabs>li>a:hover, .col-book .nav-tabs>li>a:focus,.col-book .nav-tabs>li>a{ font-size: 14px; }
-.up50{ margin-top: 0; }
-#slider-travel3{ display: none; }
-.h245{ height: 0; }
-#slider-entertainment-movie .carousel-indicators{ display: none; }
-#slider-entertainment-movie .box-carousel-control{ display: none; }
-img{ width: 100%; }
-.bx-thumb .desc-bx.no-calc a,.bx-thumb .desc-bx.no-calc h5{ color: #444 !important; }
-#ent-carousel{ display: none; }
-.bx-thumb .desc-bx.no-calc p{ color: #444; }
-#fashion-carousel{ display: none; }
-.col-caption-banner h1{ font-size: 32px; }
-#two-potrait-coloumn .col-sm-6:first-child .col-caption-article.beauty{ padding: 20px; }
-.col-horz-caption .inner-caption{ position: relative; }
-.col-potrait-caption .caption-inner{ position: relative; }
-.col-horz-article .col-sm-6 .col-horz-caption{ padding: 0; }
-#page-title{ display: none; }
-.col-horz-caption,.col-potrait-caption{ min-height: 0; }
-.cal1 .clndr .clndr-table tr{ height: 28px !important; }
-.cal1 .clndr .clndr-table tr .day .day-contents{ padding: 5px 0 !important; margin: 5px 23px !important; }
-.btm65{ bottom: 0 !important; }
-.col-music-content ul li span.title-song h3{ font-size: 14px; }
-.col-music-header{ height: auto; }
-.push-top{ margin-top: 0; }
-.col-searchbox{ display: none; }
-.music-lyrics .top-big-banner{ display: none; }
-.col-tab-panel{ margin-top: 30px; }
-.nav-tabs>li h4{ font-size: 16px; }
-.btn-submit-lyric{ display: none; }
-.bx-thumb .desc-bx.halfwidth p,.bx-thumb .desc-bx.halfwidth a{ color: #444; }
-#sidebar{ padding-left: 0; }
-.bott-big-banner{ display: none; }
-#topbanner-article #banner-head-title{ position: relative; bottom: 0; }
-#topbanner-article img.bg-banner{ display: none; }
-#topbanner-article .bott-bx-article{ position: relative; }
-#article-post .feature-img.smaller,#article-post .feature-img.bigger{ width: 100%; }
-.form-col-create li.form-group span{ float: left; width: 50%; }
-.form-col-create li.form-group span.col-sm-12{ width: 100%; }
-.btn-signup{ font-size: 16px; }
 
 }
 
@@ -2376,68 +2225,5 @@ ul.list-r-icheck li label span{ width: 230px }
 .land{ display: none; }
 
 div{ min-height: 0 !important; }
-.form-find.form-nearby{ display: none; }
-.top-map-banner .map-dummy{ display: none; }
-#top-c-place-section{ padding: 0; }
-figure.fig-thumb img{ width: 100%; }
-.bx-thumb .desc-bx.no-calc a{ color: #fff !important; }
-.full-height{ padding: 0; }
-#carousel-recipes{ display: none; }
-.top-abs-banner{ min-height: 0; position: relative; margin-bottom: 30px; }
-.top-big-banner-con{ display: none; }
-#cullinary-food .desc-bx.abs-top{ background: #1eacec; }
-#slider-culinary-food{ display: none; }
-.masonry-container{ display: none; }
-#form-section{ display: none; }
-#slider-travel2{ display: none; }
-.col-box.purple .col-caption,.col-box.green .col-caption{ position: relative; bottom: 0; }
-.top-col,.top-col-sec{ height: auto; }
-.col-box img{ width: 100%; }
-.push-top300,.push-top260{ margin-top: 0; }
-#slider-travel-story{ display: none; }
-#innerpage-content .col-box:first-child{ display: none; }
-#slide-travel-planning{ display: none; }
-.col-book .nav-tabs>li.active>a, .col-book .nav-tabs>li.active>a:hover, .col-book .nav-tabs>li.active>a:focus, .col-book .nav-tabs>li>a:hover, .col-book .nav-tabs>li>a:focus,.col-book .nav-tabs>li>a{ font-size: 14px; }
-#col-flight ul li.flight-type div, #col-flight ul li.flight-destination div, #col-flight ul li.flight-date div{ width: 100%; }
-#col-flight ul li.flight-passenger div{ width: 29.2%; }
-.up50{ margin-top: 0; }
-#slider-travel3{ display: none; }
-.h245{ height: 0; }
-#slider-entertainment-movie .carousel-indicators{ display: none; }
-#slider-entertainment-movie .box-carousel-control{ display: none; }
-img{ width: 100%; }
-.bx-thumb .desc-bx.no-calc a,.bx-thumb .desc-bx.no-calc h5{ color: #444 !important; }
-#ent-carousel{ display: none; }
-.bx-thumb .desc-bx.no-calc p{ color: #444; }
-#fashion-carousel{ display: none; }
-.col-caption-banner h1{ font-size: 32px; }
-#two-potrait-coloumn .col-sm-6:first-child .col-caption-article.beauty{ padding: 20px; }
-.col-horz-caption .inner-caption{ position: relative; }
-.col-potrait-caption .caption-inner{ position: relative; }
-.col-horz-article .col-sm-6 .col-horz-caption{ padding: 0; }
-#page-title{ display: none; }
-.col-horz-caption,.col-potrait-caption{ min-height: 0; }
-
-.cal1 .clndr .clndr-table tr{ height: 28px !important; }
-.cal1 .clndr .clndr-table tr .day .day-contents{ padding: 5px 0 !important; }
-.btm65{ bottom: 0 !important; }
-.col-music-content ul li span.title-song h3{ font-size: 14px; }
-.col-music-header{ height: auto; }
-.push-top{ margin-top: 0; }
-.col-searchbox{ display: none; }
-.music-lyrics .top-big-banner{ display: none; }
-.col-tab-panel{ margin-top: 30px; }
-.nav-tabs>li h4{ font-size: 12px; }
-.col-tab-panel .nav-tabs li h4 a{ padding: 5px; }
-.btn-submit-lyric{ display: none; }
-.bx-thumb .desc-bx.halfwidth p,.bx-thumb .desc-bx.halfwidth a{ color: #444; }
-#sidebar{ padding-left: 0; }
-#topbanner-article #banner-head-title{ position: relative; bottom: 0; }
-#topbanner-article img.bg-banner{ display: none; }
-#topbanner-article .bott-bx-article{ position: relative; }
-#article-post .feature-img.smaller,#article-post .feature-img.bigger{ width: 100%; }
-.form-col-create li.form-group span.col-sm-6:last-child{ border: 0; }
-.form-col-create li.form-group span{ float: left; width: 100%; }
-.btn-signup{ font-size: 16px; }
 
 }
